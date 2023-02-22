@@ -81,7 +81,7 @@ h3{
 }
 .visual{
     background: hsl(234, 85%, 45%,0.05);
-/*     color:hsl(234, 85%, 45%) */
+    color:hsl(234, 85%, 45%) 
 }
 .stats>img{
     margin:0 20px
@@ -108,6 +108,7 @@ h3{
     color:hsl(0, 0%, 100%);
     font-size: 1rem;
     font-weight: 700;
+    border: none;
 }
 @media(min-width:376px){
     .general-container{
@@ -165,4 +166,8 @@ h3{
         color:hsl(224, 30%, 27%,0.50);
         font-weight: 700;
 }
+    .continue:hover{
+        background:hsl(234, 85%, 45%) ;
+        
+    }
 }
