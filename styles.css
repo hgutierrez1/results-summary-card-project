@@ -1,3 +1,41 @@
 body{
     font-family: 'Hanken Grotesk', sans-serif;
+    margin:0;
+    font-size: 18px;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 100vw;
+    border-radius: 0 0 32px 32px;
+    color: hsl(241, 100%, 89%);
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+}
+.circle > h1{
+    margin: 20px 0 0 0;
+    font-weight: 800;
+    font-size: 3em;
+    color: hsl(0, 0%, 100%);
+}
+.circle > p{
+    margin: 0;
+    font-size: 0.8em;
+    font-weight:500 ;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+.paragraph{
+    margin: 0 20px 36px 20px;
+    text-align:center
 }
