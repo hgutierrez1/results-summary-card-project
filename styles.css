@@ -129,8 +129,9 @@ h3{
     .summary{
         width: 50%;
         height: 100%;
-        border:1px solid black;
+        box-shadow: 10px 12px 100px hsl(241, 100%, 89%,0.5);
         font-size: 85%;
+        border-radius: 0 32px 32px 0;
     }
     h3{
         margin-top: 24px;
@@ -155,4 +156,13 @@ h3{
         width: 36%;
         margin-right: 12px;
     }
+    .stats>div:nth-child(2)>p:nth-child(1){
+        color:hsl(224, 30%, 27%);
+        font-weight: 700;
+        margin-right: 8px;
+}
+    .stats>div:nth-child(2)>p:nth-child(2){
+        color:hsl(224, 30%, 27%,0.50);
+        font-weight: 700;
+}
 }
