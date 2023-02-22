@@ -1,7 +1,9 @@
+html{
+    font-size: 18px;
+}
 body{
     font-family: 'Hanken Grotesk', sans-serif;
     margin:0;
-    font-size: 18px;
 }
 .results{
     display: flex;
@@ -29,12 +31,12 @@ body{
 .circle > h1{
     margin: 24px 0 0 0;
     font-weight: 800;
-    font-size: 3em;
+    font-size: 3rem;
     color: hsl(0, 0%, 100%);
 }
 .circle > p{
     margin: 0;
-    font-size: 0.86em;
+    font-size: 0.86rem;
     font-weight: 500;
 
 }
@@ -44,4 +46,54 @@ h2{
 .paragraph{
     margin: 0 20px 40px 20px;
     text-align:center;
+}
+h3{
+    align-self: flex-start;
+    margin-left: 28px;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:hsl(224, 30%, 27%)
+}
+.stats{
+    display: flex;
+    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 12px;
+    
+}
+.reaction{
+    background: hsla(0, 100%, 67%,0.05);
+    color:hsl(0, 100%, 67%)
+}
+.memory{
+    background: hsl(39, 100%, 56%,0.05);
+    color:hsl(39, 100%, 56%)
+}
+.verbal{
+    background: hsl(166, 100%, 37%,0.05);
+    color:hsl(166, 100%, 37%)
+}
+.visual{
+    background: hsl(234, 85%, 45%,0.05);
+/*     color:hsl(234, 85%, 45%) */
+}
+.stats>img{
+    margin:0 20px
+}
+.stats>p:nth-child(2){
+    width: 70.125px;
+    margin-right: 120px;
+}
+.stats>p:nth-child(3){
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    margin-right: 8px;
+}
+.stats>p:nth-child(4){
+    color:hsl(224, 30%, 27%,0.50);
+    font-weight: 700;
+
 }
