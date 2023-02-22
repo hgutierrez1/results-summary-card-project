@@ -5,12 +5,16 @@ body{
     font-family: 'Hanken Grotesk', sans-serif;
     margin:0;
 }
+.general-container{
+    width: 100vw;
+    height: 100vh;
+}
 .results{
     display: flex;
     flex-direction: column;
     align-items: center;
     background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    width: 100vw;
+    width: 100%;
     border-radius: 0 0 32px 32px;
     color: hsl(241, 100%, 89%);
     font-weight:500;
@@ -84,11 +88,11 @@ h3{
 }
 .stats>p:nth-child(2){
     width: 70.125px;
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 .stats>p:nth-child(3){
     color: hsl(224, 30%, 27%);
-    font-weight: 700;
+    font-weight: 700;;
     margin-right: 8px;
 }
 .stats>p:nth-child(4){
@@ -104,4 +108,51 @@ h3{
     color:hsl(0, 0%, 100%);
     font-size: 1rem;
     font-weight: 700;
+}
+@media(min-width:376px){
+    .general-container{
+        display: grid;
+        place-items: center;
+    }
+    .content{
+        display: flex;
+        width: 50%;
+        height: 45%;
+    }
+    .results{
+        width:50%;
+        border-radius: 32px;
+    }
+    .paragraph{
+        width: 75%;
+    }
+    .summary{
+        width: 50%;
+        height: 100%;
+        border:1px solid black;
+        font-size: 85%;
+    }
+    h3{
+        margin-top: 24px;
+    }
+    .stats{
+        height: 12%;
+        width: 80%;
+        align-items: center;
+        justify-content:space-between
+
+    }
+    .stats div{
+        display: flex;
+        margin:12px
+
+    }
+    .continue{
+        height:13%;
+    }
+    img{
+        aspect-ratio: 1/1;
+        width: 36%;
+        margin-right: 12px;
+    }
 }
